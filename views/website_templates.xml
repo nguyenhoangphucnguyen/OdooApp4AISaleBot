@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <!-- Inject AISaleBot on every website page -->
+  <template id="aisalebot_embed" inherit_id="website.layout">
+    <xpath expr="//body" position="inside">
+      <script src="/aisalebot/embed.js"></script>
+    </xpath>
+  </template>
+
+</odoo>
